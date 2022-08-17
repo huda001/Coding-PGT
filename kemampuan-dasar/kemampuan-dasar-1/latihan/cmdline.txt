@@ -1,0 +1,805 @@
+PERINTAH COMMAND LINE WINDOWS
+1. ipconfig /all
+
+C:\>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-5R5I374
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter PdaNet Broadband Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : PdaNet Broadband Adapter
+   Physical Address. . . . . . . . . : 02-50-F2-BF-41-27
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-08
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::f4:5a03:bc06:6971%8(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 470417447
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-CC-04-0F-18-C0-4D-A4-F3-41
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : 18-C0-4D-A4-F3-41
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::8136:747c:aae6:18d4%22(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.1.2(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Kamis, 11 Agustus 2022 06.21.50
+   Lease Expires . . . . . . . . . . : Jumat, 12 Agustus 2022 18.21.49
+   Default Gateway . . . . . . . . . : fe80::1%22
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 303611981
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-CC-04-0F-18-C0-4D-A4-F3-41
+   DNS Servers . . . . . . . . . . . : fe80::1%22
+                                       1.1.1.1
+                                       fe80::1%22
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+   
+   2. color [[<b>]<f>]
+   
+   C:\>color 02 (membuat warna background hitam dan tulisan hijau pada CMD)
+   
+   3. date /t
+   
+   C:\>date /t
+   11/08/2022
+   
+   4. cmdkey /list
+   
+   C:\>cmdkey /list
+
+Currently stored credentials:
+
+    Target: MicrosoftAccount:target=SSO_POP_User:user=hadinurul525@gmail.com
+    Type: Generic
+    User: hadinurul525@gmail.com
+    Saved for this logon only
+
+    Target: LegacyGeneric:target=XboxLive
+    Type: Generic
+    Saved for this logon only
+
+    Target: LegacyGeneric:target=git:https://github.com
+    Type: Generic
+    User: huda001
+    Local machine persistence
+
+    Target: LegacyGeneric:target=WindowsLive:(token):name=hadinurul525@gmail.com;serviceuri=scope=service::user.auth.xboxlive.com::mbi_ssl
+    Type: Generic
+    User: hadinurul525@gmail.com
+    Local machine persistence
+
+    Target: LegacyGeneric:target=MicrosoftAccount:user=hadinurul525@gmail.com
+    Type: Generic
+    User: hadinurul525@gmail.com
+    Local machine persistence
+
+    Target: WindowsLive:target=virtualapp/didlogical
+    Type: Generic
+    User: 02pizmkiqxcqhrcz
+    Local machine persistence
+
+    Target: LegacyGeneric:target=MicrosoftAccount:user=628998639760
+    Type: Generic
+    User: 628998639760
+    Local machine persistence
+
+    Target: LegacyGeneric:target=GitHub - https://api.github.com/huda001
+    Type: Generic
+    User: huda001
+    
+    5. Ping
+    
+    C:\WINDOWS\system32>ping 192.168.56.1
+
+Pinging 192.168.56.1 with 32 bytes of data:
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+Reply from 192.168.56.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.56.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+    
+    6. tracert
+    
+    C:\WINDOWS\system32>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+    
+    7. nslookup
+    
+    C:\WINDOWS\system32>nslookup
+Default Server:  gpon.net
+Address:  fe80::1
+   
+   8. dir
+   
+   dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3024-AD7A
+
+ Directory of C:\Users\Athlon seri G
+
+11/08/2022  06.21    <DIR>          .
+11/08/2022  06.21    <DIR>          ..
+26/09/2021  02.06             6.961 -1.14-windows.xml
+18/02/2022  05.23    <DIR>          .android
+14/07/2021  08.05    <DIR>          .cache
+10/08/2022  23.43               201 .gitconfig
+06/10/2021  00.56    <DIR>          .Ld2VirtualBox
+11/08/2022  10.25    <DIR>          .VirtualBox
+11/08/2022  16.05    <DIR>          3D Objects
+04/05/2021  16.46    <DIR>          Contacts
+03/03/2021  11.07               301 d4ac4633ebd6440fa397b84f1bc94a3c.7z
+11/08/2022  15.24    <DIR>          Desktop
+10/08/2022  23.44    <DIR>          Documents
+11/08/2022  07.03    <DIR>          Downloads
+12/06/2022  11.50    <DIR>          Favorites
+14/02/2022  21.47                16 File_sys.ini
+03/03/2021  09.38                66 inittk.ini
+03/03/2021  09.37                41 inst.ini
+04/05/2021  16.46    <DIR>          Links
+18/04/2022  18.18    <DIR>          Music
+12/06/2022  11.50    <DIR>          NCH Software Suite
+03/03/2021  09.37    <DIR>          Nox_share
+03/03/2021  09.37                45 nuuid.ini
+06/07/2022  09.13    <DIR>          OneDrive
+05/08/2022  22.23    <DIR>          Pictures
+04/05/2021  16.46    <DIR>          Saved Games
+12/06/2022  15.13    <DIR>          Searches
+14/03/2021  16.33                 0 Sti_Trace.log
+14/02/2022  21.47                48 sys_scre.ini
+03/03/2021  09.37                53 useruid.ini
+08/08/2022  02.13    <DIR>          Videos
+11/08/2022  07.05    <DIR>          VirtualBox VMs
+03/03/2021  10.41    <DIR>          vmlogs
+              10 File(s)          7.732 bytes
+              23 Dir(s)  28.498.079.744 bytes free
+              
+              9. attrib
+              
+              C:\Users\Athlon seri G>attrib
+A                    C:\Users\Athlon seri G\-1.14-windows.xml
+A                    C:\Users\Athlon seri G\.gitconfig
+A                    C:\Users\Athlon seri G\d4ac4633ebd6440fa397b84f1bc94a3c.7z
+A                    C:\Users\Athlon seri G\File_sys.ini
+A                    C:\Users\Athlon seri G\inittk.ini
+A                    C:\Users\Athlon seri G\inst.ini
+A   H   I            C:\Users\Athlon seri G\NTUSER.DAT
+A  SH                C:\Users\Athlon seri G\ntuser.dat.LOG1
+A  SH                C:\Users\Athlon seri G\ntuser.dat.LOG2
+A  SH                C:\Users\Athlon seri G\NTUSER.DAT{a14dee9e-acbc-11eb-b1f0-f264d22819be}.TxR.0.regtrans-ms
+A  SH                C:\Users\Athlon seri G\NTUSER.DAT{a14dee9e-acbc-11eb-b1f0-f264d22819be}.TxR.1.regtrans-ms
+A  SH                C:\Users\Athlon seri G\NTUSER.DAT{a14dee9e-acbc-11eb-b1f0-f264d22819be}.TxR.2.regtrans-ms
+A  SH                C:\Users\Athlon seri G\NTUSER.DAT{a14dee9e-acbc-11eb-b1f0-f264d22819be}.TxR.blf
+A  SH                C:\Users\Athlon seri G\NTUSER.DAT{a14dee9f-acbc-11eb-b1f0-f264d22819be}.TM.blf
+A  SH                C:\Users\Athlon seri G\NTUSER.DAT{a14dee9f-acbc-11eb-b1f0-f264d22819be}.TMContainer00000000000000000001.regtrans-ms
+A  SH                C:\Users\Athlon seri G\NTUSER.DAT{a14dee9f-acbc-11eb-b1f0-f264d22819be}.TMContainer00000000000000000002.regtrans-ms
+   SH                C:\Users\Athlon seri G\ntuser.ini
+A                    C:\Users\Athlon seri G\nuuid.ini
+A                    C:\Users\Athlon seri G\Sti_Trace.log
+A                    C:\Users\Athlon seri G\sys_scre.ini
+A                    C:\Users\Athlon seri G\useruid.ini
+
+   10. netstat
+   
+   C:\Users\Athlon seri G>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:50170        secure:51993           ESTABLISHED
+  TCP    127.0.0.1:50170        secure:54269           ESTABLISHED
+  TCP    127.0.0.1:51993        secure:50170           ESTABLISHED
+  TCP    127.0.0.1:54269        secure:50170           ESTABLISHED
+  
+  11. route
+  
+  C:\WINDOWS\system32>route
+
+Manipulates network routing tables.
+
+ROUTE [-f] [-p] [-4|-6] command [destination]
+                  [MASK netmask]  [gateway] [METRIC metric]  [IF interface]
+
+  -f           Clears the routing tables of all gateway entries.  If this is
+               used in conjunction with one of the commands, the tables are
+               cleared prior to running the command.
+
+  -p           When used with the ADD command, makes a route persistent across
+               boots of the system. By default, routes are not preserved
+               when the system is restarted. Ignored for all other commands,
+               which always affect the appropriate persistent routes.
+
+  -4           Force using IPv4.
+
+  -6           Force using IPv6.
+
+  command      One of these:
+                 PRINT     Prints  a route
+                 ADD       Adds    a route
+                 DELETE    Deletes a route
+                 CHANGE    Modifies an existing route
+  destination  Specifies the host.
+  MASK         Specifies that the next parameter is the 'netmask' value.
+  netmask      Specifies a subnet mask value for this route entry.
+               If not specified, it defaults to 255.255.255.255.
+  gateway      Specifies gateway.
+  interface    the interface number for the specified route.
+  METRIC       specifies the metric, ie. cost for the destination.
+
+All symbolic names used for destination are looked up in the network database
+file NETWORKS. The symbolic names for gateway are looked up in the host name
+database file HOSTS.
+
+If the command is PRINT or DELETE. Destination or gateway can be a wildcard,
+(wildcard is specified as a star '*'), or the gateway argument may be omitted.
+
+If Dest contains a * or ?, it is treated as a shell pattern, and only
+matching destination routes are printed. The '*' matches any string,
+and '?' matches any one char. Examples: 157.*.1, 157.*, 127.*, *224*.
+
+Pattern match is only allowed in PRINT command.
+Diagnostic Notes:
+    Invalid MASK generates an error, that is when (DEST & MASK) != DEST.
+    Example> route ADD 157.0.0.0 MASK 155.0.0.0 157.55.80.1 IF 1
+             The route addition failed: The specified mask parameter is invalid. (Destination & Mask) != Destination.
+
+Examples:
+
+    > route PRINT
+    > route PRINT -4
+    > route PRINT -6
+    > route PRINT 157*          .... Only prints those matching 157*
+
+    > route ADD 157.0.0.0 MASK 255.0.0.0  157.55.80.1 METRIC 3 IF 2
+             destination^      ^mask      ^gateway     metric^    ^
+                                                         Interface^
+      If IF is not given, it tries to find the best interface for a given
+      gateway.
+    > route ADD 3ffe::/32 3ffe::1
+
+    > route CHANGE 157.0.0.0 MASK 255.0.0.0 157.55.80.5 METRIC 2 IF 2
+
+      CHANGE is used to modify gateway and/or metric only.
+
+    > route DELETE 157.0.0.0
+    > route DELETE 3ffe::/32
+    
+    12. Time
+    C:\WINDOWS\system32>time
+The current time is: 21.20.33,60
+
+    13. ver
+    
+    C:\WINDOWS\system32>ver
+
+Microsoft Windows [Version 10.0.19043.1526]
+    
+    14. vol
+    
+    C:\WINDOWS\system32>vol
+ Volume in drive C has no label.
+ Volume Serial Number is 3024-AD7A
+ 
+   15. whoami
+   C:\WINDOWS\system32>whoami
+desktop-5r5i374\athlon seri g
+
+   16. arp
+   
+   C:\WINDOWS\system32>arp
+
+Displays and modifies the IP-to-Physical address translation tables used by
+address resolution protocol (ARP).
+
+ARP -s inet_addr eth_addr [if_addr]
+ARP -d inet_addr [if_addr]
+ARP -a [inet_addr] [-N if_addr] [-v]
+
+  -a            Displays current ARP entries by interrogating the current
+                protocol data.  If inet_addr is specified, the IP and Physical
+                addresses for only the specified computer are displayed.  If
+                more than one network interface uses ARP, entries for each ARP
+                table are displayed.
+  -g            Same as -a.
+  -v            Displays current ARP entries in verbose mode.  All invalid
+                entries and entries on the loop-back interface will be shown.
+  inet_addr     Specifies an internet address.
+  -N if_addr    Displays the ARP entries for the network interface specified
+                by if_addr.
+  -d            Deletes the host specified by inet_addr. inet_addr may be
+                wildcarded with * to delete all hosts.
+  -s            Adds the host and associates the Internet address inet_addr
+                with the Physical address eth_addr.  The Physical address is
+                given as 6 hexadecimal bytes separated by hyphens. The entry
+                is permanent.
+  eth_addr      Specifies a physical address.
+  if_addr       If present, this specifies the Internet address of the
+                interface whose address translation table should be modified.
+                If not present, the first applicable interface will be used.
+Example:
+  > arp -s 157.55.85.212   00-aa-00-62-c6-09  .... Adds a static entry.
+  > arp -a                                    .... Displays the arp table.
+ 
+  17. tasklist
+  
+  C:\WINDOWS\system32>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      1.804 K
+Registry                       100 Services                   0     39.812 K
+smss.exe                       424 Services                   0      1.124 K
+csrss.exe                      552 Services                   0      5.024 K
+wininit.exe                    684 Services                   0      5.580 K
+csrss.exe                      692 Console                    1      5.952 K
+winlogon.exe                   784 Console                    1      9.380 K
+services.exe                   828 Services                   0      8.676 K
+lsass.exe                      848 Services                   0     38.316 K
+svchost.exe                    964 Services                   0     56.068 K
+fontdrvhost.exe                996 Console                    1      9.860 K
+fontdrvhost.exe                992 Services                   0      3.544 K
+svchost.exe                      8 Services                   0     36.748 K
+svchost.exe                    752 Services                   0     17.636 K
+dwm.exe                       1088 Console                    1     65.432 K
+svchost.exe                   1200 Services                   0     21.228 K
+svchost.exe                   1260 Services                   0     12.808 K
+svchost.exe                   1276 Services                   0     36.424 K
+svchost.exe                   1316 Services                   0     15.988 K
+svchost.exe                   1360 Services                   0     41.764 K
+svchost.exe                   1440 Services                   0     13.760 K
+svchost.exe                   1452 Services                   0     24.972 K
+svchost.exe                   1520 Services                   0     26.808 K
+svchost.exe                   1536 Services                   0     21.520 K
+svchost.exe                   1744 Services                   0     13.816 K
+amdfendrsr.exe                1800 Services                   0      5.368 K
+svchost.exe                   1860 Services                   0     16.400 K
+svchost.exe                   1872 Services                   0     15.384 K
+svchost.exe                   1956 Services                   0     25.296 K
+svchost.exe                   1976 Services                   0     27.400 K
+svchost.exe                   2036 Services                   0     16.068 K
+svchost.exe                   2044 Services                   0     25.880 K
+svchost.exe                   1076 Services                   0     13.088 K
+svchost.exe                   2052 Services                   0     20.228 K
+Memory Compression            2100 Services                   0    272.112 K
+svchost.exe                   2144 Services                   0     17.476 K
+svchost.exe                   2180 Services                   0     16.572 K
+svchost.exe                   2192 Services                   0     16.392 K
+svchost.exe                   2296 Services                   0     18.840 K
+svchost.exe                   2468 Services                   0     29.292 K
+svchost.exe                   2532 Services                   0     18.176 K
+svchost.exe                   2556 Services                   0     15.248 K
+svchost.exe                   2564 Services                   0     19.616 K
+svchost.exe                   2624 Services                   0     15.204 K
+svchost.exe                   2640 Services                   0     28.880 K
+svchost.exe                   2900 Services                   0     35.468 K
+svchost.exe                   2968 Services                   0     31.136 K
+svchost.exe                   2976 Services                   0     23.144 K
+svchost.exe                   3028 Services                   0     21.504 K
+spoolsv.exe                   3064 Services                   0     16.412 K
+svchost.exe                   3112 Services                   0     18.152 K
+armsvc.exe                    3328 Services                   0      5.920 K
+AnyDesk.exe                   3336 Services                   0     10.592 K
+mDNSResponder.exe             3344 Services                   0      7.012 K
+DCAgent.exe                   3352 Services                   0     57.084 K
+svchost.exe                   3364 Services                   0     24.568 K
+OfficeClickToRun.exe          3380 Services                   0     30.984 K
+svchost.exe                   3396 Services                   0     14.360 K
+svchost.exe                   3408 Services                   0     42.868 K
+svchost.exe                   3424 Services                   0     46.196 K
+EDUSBAgent.exe                3448 Services                   0     51.780 K
+escsvc64.exe                  3480 Services                   0      5.616 K
+svchost.exe                   3516 Services                   0     16.792 K
+pg_ctl.exe                    3544 Services                   0      5.448 K
+mepService.exe                3588 Services                   0     12.120 K
+svchost.exe                   3624 Services                   0     17.780 K
+svchost.exe                   3672 Services                   0     22.436 K
+svchost.exe                   3680 Services                   0     20.644 K
+RtkAudUService64.exe          3688 Services                   0      6.464 K
+ViakaraokeSrv.exe             3696 Services                   0      5.324 K
+svchost.exe                   3704 Services                   0     13.124 K
+TeamViewer_Service.exe        3756 Services                   0     17.488 K
+MsMpEng.exe                   3788 Services                   0    180.236 K
+svchost.exe                   3796 Services                   0     36.520 K
+svchost.exe                   3844 Services                   0     13.016 K
+svchost.exe                   3936 Services                   0     16.788 K
+dasHost.exe                   4012 Services                   0      9.644 K
+svchost.exe                   4316 Services                   0     30.436 K
+postgres.exe                  4424 Services                   0      7.648 K
+conhost.exe                   4444 Services                   0      7.652 K
+svchost.exe                   4528 Services                   0     17.064 K
+svchost.exe                   4668 Services                   0     16.368 K
+WmiPrvSE.exe                  4704 Services                   0     26.936 K
+svchost.exe                   5108 Services                   0     14.160 K
+postgres.exe                  1392 Services                   0      5.956 K
+postgres.exe                   956 Services                   0      6.324 K
+postgres.exe                  1148 Services                   0      6.280 K
+postgres.exe                   836 Services                   0      5.836 K
+SearchIndexer.exe             5180 Services                   0     53.788 K
+sihost.exe                    5468 Console                    1     37.100 K
+svchost.exe                   5540 Console                    1     40.692 K
+svchost.exe                   5564 Console                    1     87.992 K
+taskhostw.exe                 5676 Console                    1     20.664 K
+svchost.exe                   5900 Services                   0     40.044 K
+svchost.exe                   5928 Services                   0     15.712 K
+ctfmon.exe                    6076 Console                    1     21.004 K
+explorer.exe                  6208 Console                    1    258.400 K
+svchost.exe                   6556 Console                    1     53.128 K
+svchost.exe                   6604 Services                   0     42.144 K
+svchost.exe                   6820 Services                   0     29.128 K
+StartMenuExperienceHost.e     6008 Console                    1     65.492 K
+RuntimeBroker.exe             7336 Console                    1     24.876 K
+svchost.exe                   7456 Services                   0     45.392 K
+MoUsoCoreWorker.exe           7524 Services                   0     23.668 K
+SearchApp.exe                 7572 Console                    1     94.740 K
+RuntimeBroker.exe             7912 Console                    1     49.312 K
+SettingSyncHost.exe           8292 Console                    1      7.960 K
+YourPhone.exe                 8628 Console                    1      4.852 K
+RadeonSettings.exe            8820 Console                    1      4.992 K
+RuntimeBroker.exe             8856 Console                    1     27.996 K
+TextInputHost.exe             5648 Console                    1     38.356 K
+RuntimeBroker.exe             4736 Console                    1     14.484 K
+RtkAudUService64.exe          9028 Console                    1      7.504 K
+EPPCCMON.EXE                  9196 Console                    1      8.768 K
+splwow64.exe                  9160 Console                    1     11.280 K
+AnyDesk.exe                   8044 Console                    1     13.068 K
+svchost.exe                   9348 Services                   0     25.720 K
+EEventManager.exe             9356 Console                    1     13.908 K
+PdaNetPC.exe                 10040 Console                    1     28.812 K
+Shollu3.exe                   8304 Console                    1     17.968 K
+ONENOTEM.EXE                  5460 Console                    1      2.312 K
+svchost.exe                  11256 Services                   0     25.548 K
+svchost.exe                   7440 Console                    1     44.192 K
+svchost.exe                  10732 Services                   0     38.576 K
+SgrmBroker.exe               10904 Services                   0      7.992 K
+svchost.exe                  10900 Services                   0      9.672 K
+SecurityHealthService.exe     2588 Services                   0     16.412 K
+chrome.exe                    5204 Console                    1    348.172 K
+chrome.exe                    1656 Console                    1      7.380 K
+chrome.exe                    6516 Console                    1    234.652 K
+chrome.exe                    5744 Console                    1     63.640 K
+chrome.exe                    7024 Console                    1     19.908 K
+ShellExperienceHost.exe      11128 Console                    1     53.760 K
+RuntimeBroker.exe            10080 Console                    1     27.120 K
+svchost.exe                   6028 Services                   0     45.192 K
+dllhost.exe                   3464 Console                    1     29.828 K
+ApplicationFrameHost.exe      4260 Console                    1     24.648 K
+svchost.exe                   7888 Services                   0     19.556 K
+svchost.exe                   3524 Services                   0     25.680 K
+chrome.exe                   11212 Console                    1     20.684 K
+UserOOBEBroker.exe            2800 Console                    1      9.368 K
+CompPkgSrv.exe                5328 Console                    1      9.036 K
+SearchApp.exe                 2672 Console                    1     55.424 K
+svchost.exe                   7520 Services                   0     41.380 K
+IDMan.exe                     6524 Console                    1     36.400 K
+IDMIntegrator64.exe           2108 Console                    1     18.728 K
+Video.UI.exe                  8416 Console                    1      2.604 K
+RuntimeBroker.exe             6248 Console                    1      7.408 K
+Microsoft.Photos.exe         10992 Console                    1      2.744 K
+RuntimeBroker.exe             5576 Console                    1     29.580 K
+svchost.exe                   8232 Services                   0     42.868 K
+svchost.exe                  11112 Services                   0     14.552 K
+NisSrv.exe                    8960 Services                   0     11.860 K
+chrome.exe                    6120 Console                    1     71.696 K
+MpCopyAccelerator.exe        11108 Services                   0      6.644 K
+chrome.exe                    6136 Console                    1     69.136 K
+svchost.exe                   8440 Services                   0     10.348 K
+svchost.exe                  11740 Services                   0      9.736 K
+videopad.exe                 10132 Console                    1     75.052 K
+audiodg.exe                   4064 Services                   0     14.916 K
+chrome.exe                   11940 Console                    1    106.784 K
+chrome.exe                   10520 Console                    1    120.868 K
+msedge.exe                    1496 Console                    1     96.524 K
+msedge.exe                    1808 Console                    1      8.052 K
+msedge.exe                    5484 Console                    1     45.384 K
+msedge.exe                   11204 Console                    1     34.824 K
+msedge.exe                   12204 Console                    1     18.728 K
+msedge.exe                    6112 Console                    1     28.984 K
+msedge.exe                    3060 Console                    1     46.020 K
+msedge.exe                    4920 Console                    1     47.940 K
+msedge.exe                    8956 Console                    1     43.636 K
+msedge.exe                    3840 Console                    1     45.260 K
+chrome.exe                    9920 Console                    1    100.452 K
+vds.exe                      12144 Services                   0     12.116 K
+chrome.exe                    2276 Console                    1    106.816 K
+chrome.exe                    2924 Console                    1     50.488 K
+chrome.exe                     564 Console                    1    101.620 K
+chrome.exe                    8112 Console                    1    176.000 K
+chrome.exe                    8364 Console                    1    223.244 K
+svchost.exe                   8208 Console                    1     13.312 K
+chrome.exe                    7148 Console                    1     71.288 K
+chrome.exe                    1356 Console                    1     56.884 K
+chrome.exe                    7124 Console                    1     39.572 K
+chrome.exe                    4128 Console                    1     41.100 K
+chrome.exe                    8060 Console                    1     61.600 K
+chrome.exe                    9280 Console                    1    475.144 K
+chrome.exe                   13228 Console                    1    103.088 K
+chrome.exe                    2868 Console                    1     91.780 K
+mep.exe                      12620 Console                    1     35.332 K
+svchost.exe                   8812 Services                   0      8.176 K
+chrome.exe                   10328 Console                    1    166.640 K
+SearchApp.exe                13020 Console                    1     87.272 K
+chrome.exe                   11344 Console                    1     68.344 K
+chrome.exe                    1268 Console                    1     41.564 K
+chrome.exe                    5168 Console                    1     41.776 K
+chrome.exe                    9108 Console                    1     39.308 K
+chrome.exe                    5076 Console                    1     38.056 K
+chrome.exe                   10872 Console                    1     37.004 K
+chrome.exe                    5780 Console                    1     40.660 K
+chrome.exe                    8836 Console                    1     39.744 K
+chrome.exe                   12780 Console                    1     48.308 K
+chrome.exe                    1668 Console                    1     39.016 K
+chrome.exe                   12844 Console                    1     43.792 K
+chrome.exe                    3160 Console                    1     41.456 K
+chrome.exe                    1776 Console                    1     38.384 K
+chrome.exe                    9776 Console                    1     39.272 K
+chrome.exe                   11192 Console                    1     39.928 K
+chrome.exe                    8952 Console                    1     90.048 K
+virtualdj.exe                 4932 Console                    1    209.508 K
+taskhostw.exe                 8848 Console                    1     16.100 K
+cmd.exe                      13068 Console                    1     20.580 K
+conhost.exe                  12820 Console                    1     20.476 K
+chrome.exe                   12544 Console                    1     35.948 K
+RuntimeBroker.exe             6836 Console                    1     19.888 K
+backgroundTaskHost.exe       11836 Console                    1     20.828 K
+tasklist.exe                 13180 Console                    1      9.604 K
+   
+  18. systeminfo
+  
+  C:\WINDOWS\system32>systeminfo
+
+Host Name:                 DESKTOP-5R5I374
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19043 N/A Build 19043
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Athlon seri G
+Registered Organization:
+Product ID:                00330-80198-31469-AA158
+Original Install Date:     04/05/2021, 16.46.23
+System Boot Time:          11/08/2022, 06.21.32
+System Manufacturer:       Gigabyte Technology Co., Ltd.
+System Model:              A320M-S2H V2
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 17 Stepping 1 AuthenticAMD ~3200 Mhz
+BIOS Version:              American Megatrends Inc. F51, 03/08/2020
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     6.095 MB
+Available Physical Memory: 1.405 MB
+Virtual Memory: Max Size:  10.959 MB
+Virtual Memory: Available: 2.945 MB
+Virtual Memory: In Use:    8.014 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-5R5I374
+Hotfix(s):                 8 Hotfix(s) Installed.
+                           [01]: KB5003537
+                           [02]: KB4562830
+                           [03]: KB4577586
+                           [04]: KB4580325
+                           [05]: KB5000736
+                           [06]: KB5010342
+                           [07]: KB5011352
+                           [08]: KB5003742
+Network Card(s):           4 NIC(s) Installed.
+                           [01]: 802.11n USB Wireless LAN Card
+                                 Connection Name: Wi-Fi
+                                 Status:          Hardware not present
+                           [02]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.1.1
+                                 IP address(es)
+                                 [01]: 192.168.1.2
+                                 [02]: fe80::8136:747c:aae6:18d4
+                           [03]: PdaNet Broadband Adapter
+                                 Connection Name: PdaNet Broadband Connection
+                                 Status:          Media disconnected
+                           [04]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.56.1
+                                 [02]: fe80::f4:5a03:bc06:6971
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+                           
+             19. sc
+             
+             C:\WINDOWS\system32>sc
+DESCRIPTION:
+        SC is a command line program used for communicating with the
+        Service Control Manager and services.
+USAGE:
+        sc <server> [command] [service name] <option1> <option2>...
+
+
+        The option <server> has the form "\\ServerName"
+        Further help on commands can be obtained by typing: "sc [command]"
+        Commands:
+          query-----------Queries the status for a service, or
+                          enumerates the status for types of services.
+          queryex---------Queries the extended status for a service, or
+                          enumerates the status for types of services.
+          start-----------Starts a service.
+          pause-----------Sends a PAUSE control request to a service.
+          interrogate-----Sends an INTERROGATE control request to a service.
+          continue--------Sends a CONTINUE control request to a service.
+          stop------------Sends a STOP request to a service.
+          config----------Changes the configuration of a service (persistent).
+          description-----Changes the description of a service.
+          failure---------Changes the actions taken by a service upon failure.
+          failureflag-----Changes the failure actions flag of a service.
+          sidtype---------Changes the service SID type of a service.
+          privs-----------Changes the required privileges of a service.
+          managedaccount--Changes the service to mark the service account
+                          password as managed by LSA.
+          qc--------------Queries the configuration information for a service.
+          qdescription----Queries the description for a service.
+          qfailure--------Queries the actions taken by a service upon failure.
+          qfailureflag----Queries the failure actions flag of a service.
+          qsidtype--------Queries the service SID type of a service.
+          qprivs----------Queries the required privileges of a service.
+          qtriggerinfo----Queries the trigger parameters of a service.
+          qpreferrednode--Queries the preferred NUMA node of a service.
+          qmanagedaccount-Queries whether a services uses an account with a
+                          password managed by LSA.
+          qprotection-----Queries the process protection level of a service.
+          quserservice----Queries for a local instance of a user service template.
+          delete----------Deletes a service (from the registry).
+          create----------Creates a service. (adds it to the registry).
+          control---------Sends a control to a service.
+          sdshow----------Displays a service's security descriptor.
+          sdset-----------Sets a service's security descriptor.
+          showsid---------Displays the service SID string corresponding to an arbitrary name.
+          triggerinfo-----Configures the trigger parameters of a service.
+          preferrednode---Sets the preferred NUMA node of a service.
+          GetDisplayName--Gets the DisplayName for a service.
+          GetKeyName------Gets the ServiceKeyName for a service.
+          EnumDepend------Enumerates Service Dependencies.
+
+        The following commands don't require a service name:
+        sc <server> <command> <option>
+          boot------------(ok | bad) Indicates whether the last boot should
+                          be saved as the last-known-good boot configuration
+          Lock------------Locks the Service Database
+          QueryLock-------Queries the LockStatus for the SCManager Database
+EXAMPLE:
+        sc start MyService
+
+
+QUERY and QUERYEX OPTIONS:
+        If the query command is followed by a service name, the status
+        for that service is returned.  Further options do not apply in
+        this case.  If the query command is followed by nothing or one of
+        the options listed below, the services are enumerated.
+    type=    Type of services to enumerate (driver, service, userservice, all)
+             (default = service)
+    state=   State of services to enumerate (inactive, all)
+             (default = active)
+    bufsize= The size (in bytes) of the enumeration buffer
+             (default = 4096)
+    ri=      The resume index number at which to begin the enumeration
+             (default = 0)
+    group=   Service group to enumerate
+             (default = all groups)
+
+SYNTAX EXAMPLES
+sc query                - Enumerates status for active services & drivers
+sc query eventlog       - Displays status for the eventlog service
+sc queryex eventlog     - Displays extended status for the eventlog service
+sc query type= driver   - Enumerates only active drivers
+sc query type= service  - Enumerates only Win32 services
+sc query state= all     - Enumerates all services & drivers
+sc query bufsize= 50    - Enumerates with a 50 byte buffer
+sc query ri= 14         - Enumerates with resume index = 14
+sc queryex group= ""    - Enumerates active services not in a group
+sc query type= interact - Enumerates all interactive services
+sc query type= driver group= NDIS     - Enumerates all NDIS drivers
+       
+       20. set
+       
+       C:\WINDOWS\system32>set
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Athlon seri G\AppData\Roaming
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=DESKTOP-5R5I374
+ComSpec=C:\WINDOWS\system32\cmd.exe
+C_EM64T_REDIST11=C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+HOMEPATH=\Users\Athlon seri G
+LOCALAPPDATA=C:\Users\Athlon seri G\AppData\Local
+LOGONSERVER=\\DESKTOP-5R5I374
+NUMBER_OF_PROCESSORS=4
+OneDrive=C:\Users\Athlon seri G\OneDrive
+OS=Windows_NT
+Path=C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Users\Athlon seri G\AppData\Local\Microsoft\WindowsApps;C:\Users\Athlon seri G\AppData\Local\GitHubDesktop\bin
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 17 Stepping 1, AuthenticAMD
+PROCESSOR_LEVEL=23
+PROCESSOR_REVISION=1101
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\ATHLON~1\AppData\Local\Temp
+TMP=C:\Users\ATHLON~1\AppData\Local\Temp
+USERDOMAIN=DESKTOP-5R5I374
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-5R5I374
+USERNAME=Athlon seri G
+USERPROFILE=C:\Users\Athlon seri G
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1
+VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+windir=C:\WINDOWS
+
+    21. mode
+    
+    C:\WINDOWS\system32>mode
+
+Status for device CON:
+----------------------
+    Lines:          9001
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      437
+    
